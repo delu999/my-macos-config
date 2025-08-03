@@ -1,4 +1,4 @@
-brew install fd bat fish
+brew install fd bat fish eza
 
 ➜  ~ export FZF_DEFAULT_COMMAND='fd . --type f'
 ➜  ~ fzf --fish | source
