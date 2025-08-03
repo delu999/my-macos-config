@@ -1,0 +1,5 @@
+desktop-notifications = false
+link-url = false
+maximize = true
+confirm-close-surface = false
+shell-integration = fish
