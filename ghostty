@@ -1,0 +1,7 @@
+desktop-notifications = false
+link-url = false
+maximize = true
+confirm-close-surface = false
+font-size = 27
+clipboard-trim-trailing-spaces = true
+macos-titlebar-style = hidden
