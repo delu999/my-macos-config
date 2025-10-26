@@ -5,3 +5,9 @@ confirm-close-surface = false
 font-size = 27
 clipboard-trim-trailing-spaces = true
 macos-titlebar-style = hidden
+
+
+keybind = super+k=goto_split:up
+keybind = super+j=goto_split:down
+keybind = super+h=goto_split:left
+keybind = super+l=goto_split:right
