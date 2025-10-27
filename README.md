@@ -12,7 +12,7 @@ A minimal, distraction-free macOS development environment configuration.
 ## Quick Setup
 
 ```bash
-brew install starship fzf zoxide
+brew install starship fzf zoxide zsh-autocomplete
 
 git clone https://github.com/delu999/my-macos-config
 cd my-macos-config
