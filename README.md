@@ -2,7 +2,7 @@
 
 A minimal, distraction-free macOS development environment configuration.
 
-## Applications to Install seperately
+## Applications to Install separately
 
 - [**Homebrew**](https://brew.sh/) - Package manager for macOS
 - [**Ghostty**](https://ghostty.org/download) - Modern terminal emulator (download Universal Binary)
