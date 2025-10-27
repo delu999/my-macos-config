@@ -2,7 +2,7 @@
 
 A minimal, distraction-free macOS development environment configuration.
 
-## Applications to Install
+## Applications to Install seperately
 
 - [**Homebrew**](https://brew.sh/) - Package manager for macOS
 - [**Ghostty**](https://ghostty.org/download) - Modern terminal emulator (download Universal Binary)
@@ -14,33 +14,18 @@ A minimal, distraction-free macOS development environment configuration.
 brew install starship fzf zoxide zsh-autocomplete
 brew install --cask zed
 
+# only command that requieres root and it is not present in the automatic script
+sudo defaults write com.apple.universalaccess reduceMotion -bool true
+
 git clone https://github.com/delu999/my-macos-config
 cd my-macos-config
 chmod +x script.sh
 ./script.sh
-
-sudo defaults write com.apple.universalaccess reduceMotion -bool true
-# this last command requieres root and it is not present in the script
-
 ```
 
 ---
 
-## Manual Configuration
-
-If you prefer to run commands individually, you can execute any of the sections below.
-
-### Install Homebrew
-
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-### Install CLI Tools
-
-```bash
-brew install starship fzf zoxide
-```
+## Set up without using automatic script
 
 ### Copy Configuration Files
 
