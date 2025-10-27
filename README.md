@@ -17,7 +17,7 @@ brew install --cask zed
 # only command that requieres root and it is not present in the automatic script
 sudo defaults write com.apple.universalaccess reduceMotion -bool true
 
-# launch this script or execute the command manually (see next section)
+# launch this script or execute the commands manually (see next section)
 git clone https://github.com/delu999/my-macos-config
 cd my-macos-config
 chmod +x script.sh
