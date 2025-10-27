@@ -6,13 +6,13 @@ A minimal, distraction-free macOS development environment configuration.
 
 - [**Homebrew**](https://brew.sh/) - Package manager for macOS
 - [**Ghostty**](https://ghostty.org/download) - Modern terminal emulator (download Universal Binary)
-- [**Zed**](https://zed.dev/download) - High-performance code editor
 - [**Raycast**](https://www.raycast.com/) - Productivity tool with clipboard history, app launchers and window management
 
 ## Quick Setup
 
 ```bash
 brew install starship fzf zoxide zsh-autocomplete
+brew install --cask zed
 
 git clone https://github.com/delu999/my-macos-config
 cd my-macos-config
