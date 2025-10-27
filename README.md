@@ -14,7 +14,7 @@ A minimal, distraction-free macOS development environment configuration.
 brew install starship fzf zoxide zsh-autocomplete
 brew install --cask zed
 
-# only command that requieres root and it is not present in the automatic script
+# only command that requires root and it is not present in the automatic script
 sudo defaults write com.apple.universalaccess reduceMotion -bool true
 
 # launch this script or execute the commands manually (see next section)
