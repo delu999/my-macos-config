@@ -1,5 +1,6 @@
 alias zed="open -a /Applications/Zed.app" # Open a file/directory with: zed [file_name]
 alias cd='z'                              # Replaces cd with zoxide
+alias cdi='zi'                            # interactive zoxide
 alias ls='ls -GlAh'                       # ls with all the info
 alias l='/bin/ls -GA'                     # Compact and simple ls (with /bin/ls to not trigger the other alias)
 
@@ -13,8 +14,8 @@ setopt INC_APPEND_HISTORY  # Append commands to history immediately (not just on
 bindkey "\e[A" history-beginning-search-backward  # Up arrow: search history by prefix
 bindkey "\e[B" history-beginning-search-forward   # Down arrow: search history by prefix
 
-# Enables zsh's built-in tab completion system
-autoload -U compinit; compinit
+# better than the zsh's built-in tab completion system
+source /opt/homebrew/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 # Set up fzf key bindings and fuzzy completion
 # Ctrl+R for fuzzy history search
