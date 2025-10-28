@@ -69,7 +69,11 @@ if [ -f "$SCRIPT_DIR/ghostty-config" ]; then
     mkdir -p "$HOME/.config/ghostty"
     cp "$SCRIPT_DIR/ghostty-config" "$HOME/.config/ghostty/config"
 fi
-echo ""
+
+if [ -f "$SCRIPT_DIR/karabiner.json" ]; then
+    mkdir -p "$HOME/.config/karabiner"
+    cp "$SCRIPT_DIR/karabiner.json" "$HOME/.config/karabiner/karabiner.json"
+fi
 
 echo "Configuration Complete!"
 echo "IMPORTANT: Logout or restart your Mac for all changes to take effect."
