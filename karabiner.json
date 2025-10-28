@@ -23,6 +23,95 @@
                         ]
                     },
                     {
+                      "description": "Brave-specific shortcuts to have vim like motions",
+                      "manipulators": [
+                        {
+                          "conditions": [
+                            {
+                              "type": "frontmost_application_if",
+                              "bundle_identifiers": ["com.brave.Browser"]
+                            }
+                          ],
+                          "from": {
+                            "key_code": "l",
+                            "modifiers": {
+                              "mandatory": ["command"]
+                            }
+                          },
+                          "to": [
+                            {
+                              "key_code": "l",
+                              "modifiers": ["control", "option"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "conditions": [
+                            {
+                              "type": "frontmost_application_if",
+                              "bundle_identifiers": ["com.brave.Browser"]
+                            }
+                          ],
+                          "from": {
+                            "key_code": "j",
+                            "modifiers": {
+                              "mandatory": ["command"]
+                            }
+                          },
+                          "to": [
+                            {
+                              "key_code": "tab",
+                              "modifiers": ["control"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "conditions": [
+                            {
+                              "type": "frontmost_application_if",
+                              "bundle_identifiers": ["com.brave.Browser"]
+                            }
+                          ],
+                          "from": {
+                            "key_code": "k",
+                            "modifiers": {
+                              "mandatory": ["command"]
+                            }
+                          },
+                          "to": [
+                            {
+                              "key_code": "tab",
+                              "modifiers": ["control", "shift"]
+                            }
+                          ],
+                          "type": "basic"
+                        },
+                        {
+                          "conditions": [
+                            {
+                              "type": "frontmost_application_if",
+                              "bundle_identifiers": ["com.brave.Browser"]
+                            }
+                          ],
+                          "from": {
+                            "key_code": "h",
+                            "modifiers": {
+                              "mandatory": ["command"]
+                            }
+                          },
+                          "to": [
+                            {
+                              "key_code": "h",
+                              "modifiers": ["control", "option"]
+                            }
+                          ],
+                          "type": "basic"
+                        }
+                      ]
+                    },
+                    {
                         "description": "Cmd+Opt+Ctrl+Shift+H to open spotlight clipboard history",
                         "manipulators": [
                             {
@@ -59,7 +148,7 @@
                         ]
                     },
                     {
-                        "description": "meta + b Ghostty",
+                        "description": "meta + t Ghostty",
                         "manipulators": [
                             {
                                 "from": {
