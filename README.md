@@ -6,7 +6,6 @@ A minimal, distraction-free macOS development environment configuration.
 
 - [**Homebrew**](https://brew.sh/) - Package manager for macOS
 - [**Ghostty**](https://ghostty.org/download) - Modern terminal emulator (download Universal Binary)
-- [**Raycast**](https://www.raycast.com/) - Productivity tool with clipboard history, app launchers and window management
 
 ## Quick Setup
 
@@ -37,6 +36,10 @@ cp .zshrc $HOME/.zshrc
 # Install Ghostty configuration
 mkdir -p $HOME/.config/ghostty
 cp ghostty-config $HOME/.config/ghostty/config
+
+# karabiner config
+mkdir -p $HOME/.config/karabiner
+cp karabiner.json $HOME/.config/karabiner/karabiner.json
 
 # Set desktop wallpaper (creates cohesive look with hidden menubar)
 osascript -e "tell application \"Finder\" to set desktop picture to POSIX file \"$PWD/wallpaper.jpg\""
