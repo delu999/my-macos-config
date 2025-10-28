@@ -7,7 +7,7 @@
                     {
                         "manipulators": [
                             {
-                                "description": "Change caps_lock to command+control+option+shift.",
+                                "description": "Change caps_lock to command+control+option+shift (meta key)",
                                 "from": {
                                     "key_code": "caps_lock",
                                     "modifiers": { "optional": ["any"] }
@@ -21,6 +21,36 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                      "description": "Cmd+Opt+Ctrl+Shift+H to open spotlight clipboard history",
+                      "manipulators": [
+                        {
+                          "from": {
+                            "key_code": "h",
+                            "modifiers": {
+                              "mandatory": [
+                                "command",
+                                "option",
+                                "control",
+                                "shift"
+                              ]
+                            }
+                          },
+                          "to": [
+                              {
+                                  "hold_down_milliseconds": 200,
+                                  "key_code": "spacebar",
+                                  "modifiers": ["command"]
+                              },
+                              {
+                                  "key_code": "4",
+                                  "modifiers": ["command"]
+                              }
+                          ],
+                          "type": "basic"
+                        }
+                      ]
                     },
                     {
                         "description": "meta + b Brave",
@@ -114,10 +144,7 @@
                         ]
                     }
                 ]
-            },
-            "name": "Default profile",
-            "selected": true,
-            "virtual_hid_keyboard": { "keyboard_type_v2": "iso" }
+            }
         }
     ]
 }
