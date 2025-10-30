@@ -2,7 +2,7 @@ desktop-notifications = false
 link-url = false
 maximize = true
 confirm-close-surface = false
-font-size = 27
+font-size = 20
 clipboard-trim-trailing-spaces = true
 macos-titlebar-style = hidden
 
@@ -11,3 +11,59 @@ keybind = super+k=goto_split:up
 keybind = super+j=goto_split:down
 keybind = super+h=goto_split:left
 keybind = super+l=goto_split:right
+
+
+keybind = cmd+option+ctrl+shift+a=ignore
+keybind = cmd+option+ctrl+shift+b=ignore
+keybind = cmd+option+ctrl+shift+c=ignore
+keybind = cmd+option+ctrl+shift+c=ignore
+keybind = cmd+option+ctrl+shift+d=ignore
+keybind = cmd+option+ctrl+shift+e=ignore
+keybind = cmd+option+ctrl+shift+f=ignore
+keybind = cmd+option+ctrl+shift+g=ignore
+keybind = cmd+option+ctrl+shift+h=ignore
+keybind = cmd+option+ctrl+shift+i=ignore
+keybind = cmd+option+ctrl+shift+j=ignore
+keybind = cmd+option+ctrl+shift+k=ignore
+keybind = cmd+option+ctrl+shift+l=ignore
+keybind = cmd+option+ctrl+shift+m=ignore
+keybind = cmd+option+ctrl+shift+n=ignore
+keybind = cmd+option+ctrl+shift+o=ignore
+keybind = cmd+option+ctrl+shift+p=ignore
+keybind = cmd+option+ctrl+shift+q=ignore
+keybind = cmd+option+ctrl+shift+r=ignore
+keybind = cmd+option+ctrl+shift+s=ignore
+keybind = cmd+option+ctrl+shift+t=ignore
+keybind = cmd+option+ctrl+shift+u=ignore
+keybind = cmd+option+ctrl+shift+v=ignore
+keybind = cmd+option+ctrl+shift+x=ignore
+keybind = cmd+option+ctrl+shift+y=ignore
+keybind = cmd+option+ctrl+shift+z=ignore
+
+
+keybind = ctrl+shift+a=ignore
+keybind = ctrl+shift+b=ignore
+keybind = ctrl+shift+c=ignore
+keybind = ctrl+shift+c=ignore
+keybind = ctrl+shift+d=ignore
+keybind = ctrl+shift+e=ignore
+keybind = ctrl+shift+f=ignore
+keybind = ctrl+shift+g=ignore
+keybind = ctrl+shift+h=ignore
+keybind = ctrl+shift+i=ignore
+keybind = ctrl+shift+j=ignore
+keybind = ctrl+shift+k=ignore
+keybind = ctrl+shift+l=ignore
+keybind = ctrl+shift+m=ignore
+keybind = ctrl+shift+n=ignore
+keybind = ctrl+shift+o=ignore
+keybind = ctrl+shift+p=ignore
+keybind = ctrl+shift+q=ignore
+keybind = ctrl+shift+r=ignore
+keybind = ctrl+shift+s=ignore
+keybind = ctrl+shift+t=ignore
+keybind = ctrl+shift+u=ignore
+keybind = ctrl+shift+v=ignore
+keybind = ctrl+shift+x=ignore
+keybind = ctrl+shift+y=ignore
+keybind = ctrl+shift+z=ignore
