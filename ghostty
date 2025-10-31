@@ -1,10 +1,10 @@
+theme = Catppuccin Macchiato
 desktop-notifications = false
 link-url = false
 maximize = true
 confirm-close-surface = false
 font-size = 20
 clipboard-trim-trailing-spaces = true
-macos-titlebar-style = hidden
 
 
 keybind = super+k=goto_split:up
