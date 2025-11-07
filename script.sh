@@ -12,6 +12,8 @@ echo "- Setting fastest key repeat rate and minimal initial key repeat delay..."
 defaults write -g KeyRepeat -int 1
 defaults write -g InitialKeyRepeat -int 15
 
+# Repeats the key as long as it is held down, instead of showing a menu with accented letters
+defaults write -g ApplePressAndHoldEnabled -bool false
 
 echo "- Hiding menu bar..."
 defaults write -g _HIHideMenuBar -bool true
