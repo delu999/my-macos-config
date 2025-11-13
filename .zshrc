@@ -1,5 +1,7 @@
+alias duck='duckdb /Users/user/duckdb/db.duckdb --ui'
+alias python='python3'
 alias zed="open -a /Applications/Zed.app"                   # Open a file/directory with: zed [file_name]
-alias code="open -a '/Applications/Visual Studio Code.app'" # Open a file/directory with: zed [file_name]
+alias code="open -a '/Applications/Visual Studio Code.app'" # Open a file/directory with: code [file_name]
 alias c='z'                                                 # Replaces cd with zoxide
 alias ci='zi'                                               # interactive zoxide
 alias l='ls -lahG'
